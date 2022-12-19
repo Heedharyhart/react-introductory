@@ -6,6 +6,7 @@ import ReviewForm from './components/ReviewForm'
 import { ReviewProvider } from './context/ReviewContext'
 import About from './components/pages/About'
 import AboutLink from './components/AboutLink'
+import Footer from './components/Footer';
 
 
 function App(){
@@ -30,6 +31,7 @@ function App(){
                   </Routes>
                   
                 </div>
+                <Footer />
           </Router>
       </ReviewProvider>
     )
